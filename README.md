@@ -1,7 +1,7 @@
 # Youtube-Data-Harvesting-and-Warehousing
 # 1. Tools Install
 Virtual code.
-Jupyter notebook.
+Visual Studio Code
 Python 3.11.0 or higher.
 MySQL.
 MongoDB.
