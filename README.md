@@ -12,30 +12,30 @@ pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchem
 
 # 3. Import Libraries
 Youtube API libraries
-
 import googleapiclient.discovery
 from googleapiclient.discovery import build
-File handling libraries
 
+File handling libraries
 import json
 import re
+
 MongoDB
-
 import pymongo
-SQL libraries
 
+SQL libraries
 import mysql.connector
 import sqlalchemy
 from sqlalchemy import create_engine
 import pymysql
-pandas, numpy
 
+pandas, numpy
 import pandas as pd
 import numpy as np
-Dashboard libraries
 
+Dashboard libraries
 import streamlit as st
 import plotly.express as px
+
 # 4. E T L Process
 # a) Extract data
 Extract the particular youtube channel data by using the youtube channel id, with the help of the youtube API developer console.
