@@ -347,11 +347,11 @@ with col2:
             comments_access = result['Channel_data'][f"Video_Id_{i}"]['Comments']
             if comments_access == 'Unavailable' or ('Comment_Id_1' not in comments_access or 'Comment_Id_2' not in comments_access) :
                 Comment_details_tosql = {
-                    'Video_Id': 'Unavailable',
+                    'Video_Id': result['Channel_data'][f"Video_Id_{i}"]['Video_Id'],
                     'Comment_Id': 'Unavailable',
                     'Comment_Text': 'Unavailable',
                     'Comment_Author':'Unavailable',
-                    'Comment_Published_date': 'Unavailable',
+                    'Comment_Published_date': None,
                     }
                 Comment_details_list.append(Comment_details_tosql)
                 
