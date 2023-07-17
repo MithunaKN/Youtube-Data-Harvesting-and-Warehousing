@@ -1,5 +1,5 @@
 # Youtube-Data-Harvesting-and-Warehousing
-# 1. Tools Install
+# 1. Tools 
 Virtual code.
 Visual Studio Code
 Python 3.11.0 or higher.
@@ -7,7 +7,7 @@ MySQL.
 MongoDB.
 Youtube API key.
 # 2. Requirement Libraries to Install
-pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pymysql, pandas, numpy, plotly-express, streamlit.
+pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pandas, plotly-express, streamlit.
 ( pip install google-api-python-client pymongo mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
 
 # 3. Import Libraries
