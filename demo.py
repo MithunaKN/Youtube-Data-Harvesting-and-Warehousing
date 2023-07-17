@@ -424,7 +424,7 @@ with col2:
                                 'Comment_Id': sqlalchemy.types.VARCHAR(length=225),
                                 'Comment_Text': sqlalchemy.types.TEXT,
                                 'Comment_Author': sqlalchemy.types.VARCHAR(length=225),
-                                'Comment_Published_date': sqlalchemy.types.String(length=50),})
+                                'Comment_Published_date': sqlalchemy.types.DateTime})
 
 #channel analysis zone
 st.header(':violet[Channel Data Analysis zone]')
