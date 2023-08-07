@@ -6,7 +6,7 @@ Python 3.11.0 or higher.
 MySQL.
 MongoDB.
 Youtube API key.
-# 2. Requirement Libraries to Install
+# 2. Required Libraries to Install
 pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pandas, plotly-express, streamlit.
 ( pip install google-api-python-client pymongo mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
 
